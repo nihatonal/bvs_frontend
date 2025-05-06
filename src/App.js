@@ -1,21 +1,45 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import React, { useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
+
+import Header from './components/Header';
+import ScrollToTop from './utility/ScrollToTop';
+import Home from './pages/Home';
+import WebDesign from './pages/WebDesign'
+// import About from './pages/About';
+// import Services from './pages/Services';
+// import Contact from './pages/Contact';
 
 function App() {
-  const { t, i18n } = useTranslation();
+  // const { pathname } = useLocation();
 
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+  // useEffect(() => {
+  //   window.scrollTo({ top: 0 });
+  // }, [pathname]);
+  function ScrollToTopOnLoad() {
+    const location = useLocation();
+
+    useEffect(() => {
+      window.scrollTo(0, 0); // Sayfa her render edildiğinde en üste alır
+    }, [location.pathname]);
+
+    return null;
+  }
+
+
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold text-blue-600">{t('welcome')}</h1>
-      <p>{t('description')}</p>
-      <button onClick={() => changeLanguage('tr')}>Türkçe</button>
-      <button onClick={() => changeLanguage('en')}>English</button>
-      <button onClick={() => changeLanguage('ru')}>Русский</button>
-    </div>
+    <>
+      <ScrollToTopOnLoad />
+      <Header />
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services/web-design" element={<WebDesign />} />
+        {/* <Route path="/hakkimizda" element={<About />} />
+        <Route path="/hizmetler" element={<Services />} />
+        <Route path="/iletisim" element={<Contact />} /> */}
+      </Routes>
+    </>
   );
 }
 

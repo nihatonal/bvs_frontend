@@ -1,7 +1,25 @@
 @tailwind base;
+html,
+body {
+  @apply font-gilroy;
+}
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-color: rgb(4, 51, 59);
+  --primary-color_hover: #b46e3c;
+  --secondary-color: #628a76;
+  --white-color: #fff;
+  --dirty-white: rgb(206, 206, 206);
+  --primary-font: "Rubik", sans-serif;
+  --dancing: "Dancing Script", cursive;
+  --color_danger: rgb(230, 34, 93);
+  --boxSize: 1em;
+  --speed: 18s;
+  --rotateSceneX: -0deg;
+  --rotateSceneY: 0deg;
+}
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +29,6 @@
   height: auto;
   overflow: visible;
 }
-html {
+/* html {
   scroll-behavior: smooth;
-}
-
-
-
+} */

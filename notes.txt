@@ -1,0 +1,21 @@
+Header
+
+Hero Section
+(Kısa tanıtım + aksiyon çağrısı)
+
+Hakkımda / About Me
+(Senin kim olduğun, uzmanlık alanların)
+
+Hizmetler / Services
+(Neler sunuyorsun? Web tasarım, danışmanlık vs.)
+
+Portföy / Portfolio
+(Projeler + görseller + linkler + kısa açıklamalar)
+
+Referanslar / Testimonials
+(Varsa, müşteri yorumları veya başarı hikayeleri)
+
+İletişim / Contact
+(İletişim bilgileri, form)
+
+Footer

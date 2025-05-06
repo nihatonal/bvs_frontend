@@ -1,4 +1,33 @@
 @tailwind base;
+html,
+body {
+  @apply font-gilroy;
+}
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/gilroy-bold/Gilroy-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/gilroy-bold/Gilroy-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/gilroy-bold/Gilroy-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+.custom-clip {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 85% 100%, 100% 75%, 0 75%, 0 100%);
+}

@@ -1,0 +1,9 @@
+.bg-grid {
+  background-image: url("../assets/images/bg_grid.png");
+  background-size: 20px 20px;
+}
+
+.bg-grid-dark {
+  background-image:  url("../assets/images/bg_grid.png");
+  background-size: 20px 20px;
+}

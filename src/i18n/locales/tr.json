@@ -1,5 +1,173 @@
 {
-    "welcome": "Hoş geldiniz",
-    "description": "Bu çok dilli bir web uygulamasıdır."
+  "menu": {
+    "home": "Anasayfa",
+    "about": "Hakkımda",
+    "services": "Hizmetler",
+    "portfolio": "Portföy",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Hayalindeki web sitesi burada başlar",
+    "subtitle": "Modern, hızlı ve etkileyici tasarımlarla dijital vitrinini parlat.",
+    "cta": "Projeni Başlatalım"
+  },
+  "about": {
+    "section_title": "Hakkımızda",
+    "section_reflect": "Birazcık",
+    "title": "BVS Design: Yaratıcı ve Etkili Web Tasarım Çözümleri",
+    "desc": "BVS Design, dijital dünyada güçlü ve etkileyici varlıklar yaratmak için çalışıyor. Yenilikçi ve özgün tasarımlar ile markaların dijital başarılarını artırıyoruz. Müşterilerimize özel, kullanımı kolay ve etkili web siteleri tasarlıyoruz.",
+    "desc_2": "Vizyonumuz, her markaya dijital dünyada kendini en iyi şekilde ifade edebileceği bir platform yaratmak. Misyonumuz ise her projeye yüksek kalite ve müşteri odaklılık anlayışıyla yaklaşmaktır.",
+    "cta": "Daha Fazlasını Keşfet",
+    "skills": "Beni sayılarla tanıyın"
+  },
+  "services": {
+    "section_reflect": "NELER SUNUYORUM",
+    "section_title": "Hizmetlerim",
+    "read_more": "Detayları Gör",
+    "web_design": {
+      "title": "Web Tasarımı",
+      "short_desc": "Estetik, modern ve kullanıcı odaklı arayüzler tasarlıyorum."
+    },
+    "frontend_dev": {
+      "title": "Front-End Geliştirme",
+      "short_desc": "React ve modern JS teknolojileriyle etkileşimli arayüzler kodluyorum."
+    },
+    "multilang": {
+      "title": "Çok Dilli Web Siteleri",
+      "short_desc": "Küresel kullanıcılar için çok dilli destekli siteler kuruyorum."
+    },
+    "admin_cms": {
+      "title": "Yönetim Panelleri & CMS",
+      "short_desc": "Kolay yönetim için özel admin panelleri ve CMS sistemleri geliştiriyorum."
+    },
+    "webdesign": {
+      "title": "Web Tasarımı",
+      "description": "Profesyonel ve çağdaş tasarımlar ile markanıza dijital kimlik kazandırıyorum.",
+      "cta": "Projeye Başla",
+      "offer_title": "Neler Sunuyorum?",
+      "offer_subtitle": "Tasarım, geliştirme ve strateji — hepsi tek bir yerde.",
+      "cards": {
+        "uiux": {
+          "title": "UI/UX Odaklı",
+          "desc": "Kullanıcı deneyimini merkeze alarak tasarım yaparım."
+        },
+        "responsive": {
+          "title": "Mobil Uyumlu",
+          "desc": "Tüm cihazlarda mükemmel görünen siteler sunarım."
+        },
+        "prototype": {
+          "title": "Prototipleme",
+          "desc": "Fikirlerinizi taslak haline getirerek onay sürecinizi kolaylaştırırım."
+        },
+        "unique": {
+          "title": "Özgün Tasarım",
+          "desc": "Hazır şablonlardan uzak, size özel çözümler üretirim."
+        }
+      },
+      "offers": [
+        "Modern, Aesthetic Interfaces",
+        "User-Centered Design",
+        "Responsive & Mobile-First Design",
+        "Wireframes & Prototypes",
+        "Dark Mode & Theming",
+        "Typography & Color Harmony"
+      ],
+      "workflow_title": "Çalışma Sürecim",
+      "workflow": {
+        "title": "Çalışma Sürecim",
+        "workflow_subtitle": "Net adımlar, temiz kod, yaratıcı tasarım.",
+        "step1": {
+          "title": "Brief & İhtiyaç Analizi",
+          "desc": "Proje hedeflerini, hedef kitleni ve ihtiyaçlarını detaylıca analiz ediyorum."
+        },
+        "step2": {
+          "title": "Wireframe & Tasarım",
+          "desc": "Fikirleri somutlaştırmak için düşük çözünürlüklü wireframe ve ardından modern UI tasarımlarını sunuyorum."
+        },
+        "step3": {
+          "title": "Geliştirme Süreci",
+          "desc": "React, Tailwind gibi modern araçlarla hızlı, responsive ve temiz kod yazıyorum."
+        },
+        "step4": {
+          "title": "Test & Teslim",
+          "desc": "Tüm cihazlarda test ederim, SEO ve performans odaklı şekilde yayına alırım."
+        }
+      },
+      "tools_title": "Kullandığım Araçlar",
+      "pricing_title": "Paketlerimiz",
+      "pricing": {
+        "basic": {
+          "title": "Temel Paket",
+          "price": "Başlangıç 7.500₺",
+          "feature1": "Tek sayfalık modern web sitesi",
+          "feature2": "Mobil uyumlu ve hızlı",
+          "feature3": "Hafif animasyonlar ve temel SEO"
+        },
+        "pro": {
+          "title": "Profesyonel Paket",
+          "price": "Başlangıç 12.000₺",
+          "feature1": "Çok sayfalı özel tasarım",
+          "feature2": "Çoklu dil desteği ve özel efektler",
+          "feature3": "Dinamik içerik ve gelişmiş etkileşimler",
+          "note": "* Giriş sistemi, e-ticaret ve özel panel gibi projeler farklı şekilde fiyatlandırılır."
+        },
+        "disclaimer": "Fiyatlar örnek başlangıç aralıklarıdır. Her proje detaylı olarak değerlendirilir."
+      },
+      "testimonials": {
+        "title": "Müşteri Yorumları",
+        "subtitle": "Beraber çalıştığım kişilerin gerçek deneyimleri.",
+        "items": {
+          "1": {
+            "quote": "Nihat, eski web sitemizi modern bir başyapıta dönüştürdü. İletişim ve sonuçlardan çok memnun kaldık.",
+            "author": "Sarah P.",
+            "role": "Kurucu, Nature Retreats"
+          },
+          "2": {
+            "quote": "Profesyonel, dakik ve yetenekli. UI/UX tasarımı beklentilerimizin ötesindeydi.",
+            "author": "Alex G.",
+            "role": "Ürün Yöneticisi, TechNova"
+          },
+          "3": {
+            "quote": "Tasarım sürecinden yayına kadar her şey sorunsuz ve sistemliydi. Kesinlikle tavsiye ederim!",
+            "author": "Elena K.",
+            "role": "CEO, Kultura Studio"
+          }
+        }
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "questions": {
+          "q1": {
+            "question": "Bir web sitesinin tamamlanması ne kadar sürer?",
+            "answer": "Temel bir proje genellikle 1-2 hafta sürer. Daha karmaşık projeler ise özelliklere ve geri bildirim döngülerine göre 3 hafta veya daha fazla sürebilir."
+          },
+          "q2": {
+            "question": "Projeye başlamak için nelere ihtiyacınız var?",
+            "answer": "İşe bir brief ile başlıyoruz. Hedefleriniz, içerikleriniz, marka materyalleriniz (logo, renkler) ve tercihleriniz veya ilham aldığınız örnekler gerekiyor."
+          },
+          "q3": {
+            "question": "Yayın sonrası destek sağlıyor musunuz?",
+            "answer": "Evet. Yayından sonra belirli bir süre boyunca güncellemeler, hata düzeltmeleri ve küçük tasarım değişiklikleri için destek sağlıyorum."
+          },
+          "q4": {
+            "question": "Özel bir özellik talep edebilir miyim?",
+            "answer": "Elbette! Özelliği değerlendirip uygulanabilirliğini ve maliyetini kontrol ederim, ardından final plana dahil ederiz."
+          }
+        }
+      }
+    }
+  },
+  "contact": {
+    "section_reflect": "İLETİŞİME GEÇ",
+    "section_title": "Benimle İletişime Geç",
+    "subtitle": "Bir projen mi var ya da sadece selam vermek mi istiyorsun?",
+    "name": "Adınız",
+    "email": "E-posta",
+    "message": "Mesajınız",
+    "submit": "Mesajı Gönder",
+    "success": "Mesajınız başarıyla gönderildi!",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "socials": "Ya da sosyal medyadan ulaşın"
   }
   
+}

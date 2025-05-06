@@ -1,15 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class', // class bazlı tema kontrolü
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 
   theme: {
     extend: {
-      backgroundImage: {
-        'danger-gradient': "linear-gradient(-45deg, var(--color_danger) 0% 50%, #fff 50% 100%)",
+      fontFamily: {
+        "gilroy": ['Gilroy', 'sans-serif'],
       },
-      colors: {
-        tiktok: '#69C9D0',
+      animation: {
+        'ping-slow': 'ping 2.5s cubic-bezier(0, 0, 0.2, 1) infinite',
       },
+      backgroundColor: {
+        "dark-theme": "#1d1d1d",
+      }
+
+
+
     },
   },
 
